@@ -1,10 +1,3 @@
-//JavaScript gives you, the developer, access to an extremely powerful keyword - “this”. 
-// “this” can be used to access data contextually, allowing your functions and methods to access the data that they need based on a specific context. 
-// “this” is awesome, but it’s also very confusing! 
-// In this workshop, we’ll go over 3 of the 4 main ways “this” can be used, and hopefully demystify it’s usage
-
-//https://www.youtube.com/watch?v=yVdU2coJ1VQ
-
 var Portland = {
     bridges: 12,
     airport: 1,
