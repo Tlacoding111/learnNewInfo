@@ -5,6 +5,10 @@ class Game {
         this.ready = false;
     }
 
+    get activePlayer() {
+        return this.players.find(player => player.active);
+    }
+
     createPlayers() {
         const players = [new Player("player 1", 1, "#e15258", true),
                         new Player("player 2", 2, "#e59a13")];
@@ -12,6 +16,8 @@ class Game {
     }
 
     startGame(){
-        
+        this.board.drawHTMLBoard();
+        this.activePlayer.activeToken.drawHTMLToken();
+        this.ready = true;
     }
 }
