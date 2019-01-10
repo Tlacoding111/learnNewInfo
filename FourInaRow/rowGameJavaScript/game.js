@@ -10,4 +10,8 @@ class Game {
                         new Player("player 2", 2, "#e59a13")];
         return players;
     }
+
+    startGame(){
+        
+    }
 }
