@@ -50,4 +50,13 @@ class Game {
             activeToken.drop(targetSpace);
         }
     }
+
+    checkForWin(target) { 
+    }
+
+    switchPlayers() {
+        for (let player of this.players) {
+            player.active = player.active === true ? false : true;
+        }
+    }
 }
