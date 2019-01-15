@@ -1,0 +1,26 @@
+Lesson 1
+
+    Introduction to Node.js
+
+    Node.js is a JavaScript environment that allows you to perform a multitude of tasks and build all sorts of exciting applications.
+
+    REPL = Read Evaluate Print Loop
+        If I type node into the console and hit return what would happen?
+            An interctive REPL would start
+
+    API = Application Performance Interface
+
+    The Array object is what type of object?
+        Native
+
+    The File System (fs) API is available in which environment?
+        Node.js
+
+    What is Node.js' default JavaScript engine?
+        Google Chrome V8
+
+    Node.js = Non-Blocking
+        That's right, Node.js can perform other tasks whilst it waits on others to complete.
+
+    How do you exit the Node.js REPL (read-eval-print-loop)?
+        Press CTRL+C Twice
