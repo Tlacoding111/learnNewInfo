@@ -44,6 +44,47 @@ header h1 {
     font-size: 4em;
 }
 
+/*-----------Top Cover--------*/
+
+.top_cover {
+    padding: 300px;
+    /* border: 1px solid white; */
+    background:
+        /* linear-gradient(transparent, white 95%), */
+        url(Images/Restaurant_SceneryB.jpg);
+    background-size: cover;
+}
+
+.top_cover h1 {
+    color: white;
+    text-align: center;
+}
+
+/*-----------Headline Break--------*/
+
+.headline_break {
+    padding: 15px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+}
+
+/*-----------Second Cover--------*/
+
+.second_cover {
+    padding: 300px;
+    background: url(Images/Restaurant_SceneryC.jpg);
+    background-size: cover;
+}
+
+/*-----------Third Cover--------*/
+
+.third_cover {
+    padding: 300px;
+    background: url(Images/ChineseFood_WallpaperA.jpg);
+    background-size: cover;
+}
+
 /*-----------Sections--------*/
 
 .section h1 {
