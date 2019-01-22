@@ -44,6 +44,40 @@ header h1 {
     font-size: 4em;
 }
 
+
+/*-----------Navigtion--------*/
+
+nav {
+    padding: 10px;
+    background-color: white;
+    text-align: right;
+}
+
+/* nav ul {
+    float: right;
+    clear: both;
+} */
+
+nav a{
+    padding: 1px;
+    display: inline;
+    font-size: 20px;
+    /* border: 1px solid yellow; */
+    text-decoration: none;
+}
+
+nav a:link {
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color:yellow;
+}
+
 /*-----------Top Cover--------*/
 
 .top_cover {
