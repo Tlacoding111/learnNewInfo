@@ -8,3 +8,7 @@
 
     //Console Print
     console.dir({name:"Andrew", age:33});
+
+//Lesson 2
+
+    //

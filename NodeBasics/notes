@@ -24,3 +24,23 @@ Lesson 1
 
     How do you exit the Node.js REPL (read-eval-print-loop)?
         Press CTRL+C Twice
+
+Lesson 2
+
+    Application Performance Interface
+
+        Allows you to programmatically interact with another programmatically
+
+    Types of Events
+
+        1. User Event
+            An example is a mouse click
+                When a mouse click happens on the button, the callback is triggered and then an alert is shown
+        
+        2. System Event
+            An example is the setTimeout function 
+                A callback gets executed after a given time
+                    The developer may define the time when the call back gets executed, but the system is what triggers it
+            setTimeout (() => {
+                alert("Timer finished!");
+            }, 10000);
