@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(../RestaurantProject/solidRed.jpg);
+    background-image: url(Images/solidRed.jpg);
 }
 
 /*-----------Layout--------*/
@@ -50,3 +50,10 @@ header h1 {
     color: gold;
 }
 
+
+/*-----------Order Online--------*/
+
+.foodPics {
+    width: 150px;
+    height: 150px;
+}
