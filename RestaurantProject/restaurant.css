@@ -29,7 +29,7 @@ body {
 .section {
     /* background-color: lightyellow; */
     text-align: center;
-    padding: 100px;
+    /* padding: 100px; */
     border: 1px dashed dodgerblue;
     /* margin: 0 auto; */
 }
@@ -50,10 +50,37 @@ header h1 {
     color: gold;
 }
 
+/*-----------About-------*/
 
-/*-----------Order Online--------*/
+.about p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.aboutPic {
+    width: 350px;
+    height: 425px;
+}
+
+/*-----------Menu--------*/
+
+.menu {
+    background-color: black;
+}
+
+.menu p {
+    color: white;
+    font-size: 18px;
+    
+}
+
+
+/*-----------Food Pictures--------*/
 
 .foodPics {
-    width: 150px;
-    height: 150px;
+    width: 280px;
+    height: 275px;
 }
