@@ -1,0 +1,36 @@
+h1 {
+    color: blue;
+}
+
+/*-----------Navigtion--------*/
+
+nav {
+    padding: 10px;
+    background-color: dodgerblue;
+    text-align: right;
+}
+
+/* nav ul {
+    float: right;
+    clear: both;
+} */
+
+nav a{
+    padding: 1px;
+    display: inline;
+    font-size: 25px;
+    /* border: 1px solid yellow; */
+    text-decoration: none;
+}
+
+nav a:link {
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color:yellow;
+}
