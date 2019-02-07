@@ -34,3 +34,30 @@ nav a:visited {
 nav a:hover {
     color:yellow;
 }
+
+/*-----------Gallery--------*/
+
+.gallery {
+    margin: 10px 50px;
+}
+
+.gallery img {
+    width: 250px;
+    padding: 5px;
+    
+}
+
+/*----------Search--------*/
+
+input[type="text"] {
+    border: 3px solid blue;
+    width: 245px;
+    margin: 10% 20%;
+    text-align: center;
+    color: blue;
+}
+
+input::placeholder {
+    color: lightgray;
+    text-align: center;
+}

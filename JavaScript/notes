@@ -75,3 +75,24 @@ Lesson 2
 
         = ["red", "blue", "green"];    
 --------------------------------------------------------------------------------
+
+Lesson 3
+
+    Functions:
+
+        - A set of statements that perform a task or calculates a value
+
+    Parameter:
+
+        - Name is the parameter of the greet function
+
+    Argument:
+
+        - John is the argument of the greet function
+    
+    function greet(name, lastName) {
+        console.log("Hello " + name + " " + lastName);
+    }
+
+    greet("John", "Smith");
+    greet("Mary", "Smith");

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Celebrities</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="celebrities.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="lightbox/css/lightbox.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/celebrities.css" />
 </head>
+
 <body>
-    
-    <h1>Test</h1>
+    <h1>Celebrities Gallery</h1>
 
     <nav>
         <a href="../restaurant.html">Home</a>
@@ -18,6 +20,22 @@
         <a href="celebrities/celebrities.html">Celebrity Guests</a>
     </nav>
 
+    <input id="search" name="search" placeholder="Start typing here" type="text" data-list=".list">
+        <ul class="list">
+            <!-- <li>item 1</li>
+            <li>...</li>
+            <li><a href="#">item 2</a></li> -->
+        </ul>
+
+    <div class="gallery">
+        <a href="images/la_lang-lang.jpg" data-lightbox="image" data-title="Lang Lang"><img src="images/la_lang-lang.jpg"></a>
+        <a href="images/la_frank-lautenberg.jpg" data-lightbox="image" data-title="Frank Lautenberg"><img src="images/la_frank-lautenberg.jpg"></a>
+        <a href="images/la_norman-mineta.jpg" data-lightbox="image" data-title="Norman Mineta"><img src="images/la_norman-mineta.jpg"></a>
+    </div>
+
 </body>
-    <script src="celebrities.js"></script>
+   <script src="js/jquery-3.3.1.min.js"></script>
+   <script type="text/javascript" src="hideSeek-master/jquery.hideseek.min.js"></script>
+   <script src="lightbox/js/lightbox.js"></script>
+   <script src="js/celebrities.js"></script>
 </html>
