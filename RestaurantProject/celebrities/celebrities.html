@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Celebrities</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lightbox/css/lightbox.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/celebrities.css" />
 </head>
 
@@ -19,36 +20,34 @@
         <a href="celebrities/celebrities.html">Celebrity Guests</a>
     </nav>
 
-    <input id="search" name="search" placeholder="Start typing here" type="text" data-list=".list">
+    <input id="search" name="search" placeholder="Senator" type="text" data-list=".list">
         <ul class="list">
             <!-- <li>item 1</li>
             <li>...</li>
             <li><a href="#">item 2</a></li> -->
         </ul>
 
-    <div class="containerItems">
+        <div id="images" class="list">
 
-        <div data-title="Lang Lang" class="item">
-            <img src="images/la_lang-lang.jpg">
-            <span><b>Lang Lang</b></span>
+            <a href="images/la_lang-lang.jpg" data-lightbox="image" data-title="Lang Lang">
+                <img src="images/la_lang-lang.jpg" alt="Lang Lang" class="photos">
+            </a>
+
+            <a href="images/la_frank-lautenberg.jpg" data-lightbox="image" data-title="Senator Frank Lautenberg">
+                <img src="images/la_frank-lautenberg.jpg" alt="Frank" class="photos">
+            </a>
+
+            <a href="images/la_norman-mineta.jpg" data-lightbox="image" data-title="Norman Mineta">
+                <img src="images/la_norman-mineta.jpg" alt="Norman" class="photos">
+            </a>
+
         </div>
-
-        <div data-title="Frank" class="item">
-            <img src="images/la_frank-lautenberg.jpg">
-            <span><b>Frank Lautenberg</b></span>
-        </div>
-
-        <div data-title="Norman" class="item">
-            <img src="images/la_norman-mineta.jpg">
-            <span><b>Norman Mineta</b></span>
-        </div>
-
-    </div>
 
     
 
 </body>
-    <script src="js/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript" src="HideSeek-master 3/jquery.hideseek.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="hideSeek-master/jquery.hideseek.min.js"></script>
+    <script src="lightbox/js/lightbox.js"></script>
     <script src="js/celebrities.js"></script>
 </html>
