@@ -49,15 +49,29 @@ nav a:hover {
 
 /*----------Search--------*/
 
-input[type="text"] {
-    border: 3px solid blue;
-    width: 245px;
-    margin: 10% 20%;
-    text-align: center;
-    color: blue;
+#search {
+    width: 640px;
+    margin: 25px auto;
 }
 
-input::placeholder {
-    color: lightgray;
+.containerItems {
+    width: 660px;
+    margin: 25px auto;
+    clear: both;
+}
+
+.item {
+    float: left;
+    width: 200px;
+    padding: 5px;
     text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+}
+
+.item img:hover {
+    transform: scale(2);
 }
