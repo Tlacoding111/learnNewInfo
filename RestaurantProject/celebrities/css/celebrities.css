@@ -50,8 +50,9 @@ nav a:hover {
 /*----------Search--------*/
 
 #search {
-    width: 640px;
+    width: 50%;
     margin: 25px auto;
+    align-content: center;
 }
 
 .containerItems {
