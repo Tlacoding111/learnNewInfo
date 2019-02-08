@@ -96,3 +96,16 @@ Lesson 3
 
     greet("John", "Smith");
     greet("Mary", "Smith");
+--------------------------------------------------------------------------------
+
+Lesson 4
+
+    String:
+
+        // String Primitive
+
+        const message = "This is my first message";
+
+        // String Object
+
+        const another = new String ("hi");
