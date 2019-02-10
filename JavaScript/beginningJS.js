@@ -23,3 +23,9 @@
 //     }
 //     else
 //         console.log("Good Evening");
+
+// Day 5
+
+// for (let i = 0; i < 5; i++) {
+//     console.log("Hello World");
+// }
