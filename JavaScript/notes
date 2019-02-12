@@ -175,4 +175,46 @@ Lesson 6
     const circle2 = createCircle(2);
     console.log(circle2);
  --------------------------------------------------------------------------------
+
+ Lesson 8
+
+    Constructor Functions:
+
+        - Use Pascal Notation: OneTwoThreeFour
+
+    function Circle(radius) {
+        this.radius = radius;
+        this.draw = function() {
+            console.log("draw");
+        }
+    }
+
+    const circle = new Circle(1);
+
+ --------------------------------------------------------------------------------
+
+ Lesson 9
+
+    Getters and Setters:
+
+        - Getters => Access Properties
+        - Setters => Change (mutate) Them 
+
+    const person = {
+        firstName: "Mosh",
+        lastName: "Hamedani",
+        get fullName() {
+            return '${person.firstName} ${person.lastName}
+        },
+        set fullName(value) {
+            const parts = value.split(" ");
+            this.firstName = parts[0];
+            this.lastName = parts[1];
+        }
+    };
+
+    person.fullName = "John Smith";
+
+    console.log(person);
+ --------------------------------------------------------------------------------
     
