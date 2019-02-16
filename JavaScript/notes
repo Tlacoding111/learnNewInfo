@@ -217,4 +217,66 @@ Lesson 6
 
     console.log(person);
  --------------------------------------------------------------------------------
-    
+
+ Lesson 10
+
+    Values vs Reference Types:
+
+        Value Types:
+            - Number
+            - String 
+            - Boolean
+            - Symbol
+            - undefined
+            - Null
+
+            *Primititives are copied by their value
+
+        Reference Types:
+            - Object
+            - Function
+            - Array 
+
+            *Objects are copied by their reference
+  --------------------------------------------------------------------------------
+
+  Lesson 11
+
+    Scope: 
+
+        Where the variable is accessible (global vs local)
+
+        Global: Outside
+
+            const color = "red";
+
+            function start() {
+                const message = "hi";
+                const color = "blue";
+                console.log(color);
+            }
+
+        Local:  Inside
+
+        Key: Place variables locally
+                Toothbrush Sharing Metaphor
+--------------------------------------------------------------------------------
+
+  Lesson 12
+
+    Let vs Var vs Const
+
+    function start() {
+        for (var i = 0; i < 5; i++) {
+            if (true) {
+                let color = "red";
+            }
+        }
+
+        console.log(color);
+    }
+
+    var => function-scoped
+    let, const => block-scoped
+--------------------------------------------------------------------------------
+
