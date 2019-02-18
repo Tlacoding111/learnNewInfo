@@ -280,3 +280,18 @@ Lesson 6
     let, const => block-scoped
 --------------------------------------------------------------------------------
 
+    Lesson 13
+
+    Cloning an Object
+
+    const circle = {
+        radius: 1,
+        draw() {
+            console.log("draw");
+        }
+    };
+
+    const another = { ...cirle};
+
+    console.log(another);
+
